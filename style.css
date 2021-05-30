@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html { overflow-y: scroll; } 
+body{
+	
+	color: black;
+	font-family: verdana, geneva, sans-seriff;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+	position: relative;
+	padding-bottom: 61px; 
+}
+h3 a{
+	text-decoration: none;
+	color: black;
+	padding-right: 20px;
+}
+h3 a:hover{
+	color: coral;
+}
+.clr{
+	clear: both;
+}
+.container{
+	width: 1348px;
+	margin: auto;
+}
+
+#main-header{
+	font-family: cursive;
+	color: orange;
+	background-position: 240px 2px;
+	font-weight: bold;
+	background-color: white;
+	font-size: 20px;
+}
+
+
+#navbar{
+	background-color: #0a0908;
+	padding: 5px;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+	border-right: 2px white solid;
+}
+
+#navbar a:hover{  
+	color: grey;
+}
+
+
+#showcase{
+	background: url('image/reshd.jpg');
+	height: 400px;
+	background-position: right center;
+	position: relative;
+	overflow: hidden;
+}
+
+#showcase .container{
+	position: absolute;
+	top: 200px;
+	left: 450px;
+	color: white;
+	font-size: 30px;
+	font-family: cursive;
+	background-color: grey;
+	height: 50	%;
+	width: 20%;
+
+}
+
+#main{
+	text-align: center;
+	padding: 20px;
+}
+
+.link-button{
+	color: white;
+	text-decoration: none;
+	background: black;
+	border: none;
+	padding: 4px;
+}
+.link-button:hover{
+	color: grey;
+}
+
+.form{
+	padding: 20px;
+}
+.form-group{
+	padding-bottom: 15px;
+}
+
+.form label{
+	display: block;
+}
+
+.form input[type='text'],.form input[type='email'], .form textarea{
+	width: 45%;
+	padding: 2px;
+}
+
+.pp-block{
+	padding: 20px;
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+#main-footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #0a0908;
+	color: white;
+	width: 100%;
+}
+#main-footer p{
+	text-align: center;
+}
+
+
+	
